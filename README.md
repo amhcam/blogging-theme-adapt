@@ -9,3 +9,6 @@ I made the following modifications to his design:
 rendered exceeds the margin
 3. Other aesthetic modifications
 
+## Details of the modifications
+
+The modification relevant to point (1.) is shown in the last section of header.html, while that which is relevant to (2.) is shown in mathjax_support.html and header.html. Both modifications can be found in the layout/partials
