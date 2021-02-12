@@ -3,8 +3,7 @@
   <a class="UnderlineNav-actions muted-link h2" href="{{ .Site.BaseURL }}">
     {{ .Site.Title }}
   </a>
-  <script async src="https://cse.google.com/cse.js?cx=e0c5e54daac8caa15"></script>
-  <div class="gcse-search"></div>
+
   {{ $currentPage := . }}
   {{ with .Site.Menus.main }}
   <div class="UnderlineNav-body">
@@ -36,3 +35,6 @@
   </div>
   {{ end }}
 </nav>
+
+<script async src="https://cse.google.com/cse.js?cx=e0c5e54daac8caa15"></script>
+<div class="gcse-search"></div>
