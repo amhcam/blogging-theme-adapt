@@ -4,6 +4,8 @@
     {{ .Site.Title }}
   </a>
 
+  {{ partial "mathjax_support.html" . }}
+
   {{ $currentPage := . }}
   {{ with .Site.Menus.main }}
   <div class="UnderlineNav-body">

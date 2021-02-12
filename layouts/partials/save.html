@@ -1,0 +1,46 @@
+<script type="text/x-mathjax-config">
+
+MathJax.Hub.Config({
+tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]] },
+"HTML-CSS": {
+  linebreaks: { automatic: true, width: "container" }
+}
+});
+
+</script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<style>
+.col {
+    background: #f0f0f0;
+    width: 230px;
+    padding: 10px;
+    font-size: 1.5em; 
+    word-wrap: break-word;
+}
+</style>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
