@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
 Copyright (c) 2018 Qiushi Pan
+
 Copyright (c) 2021 Hephaes Chau
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
